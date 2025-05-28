@@ -13,7 +13,7 @@ Navegação Intuitiva: Menu de navegação simples e funcional
 Seções Organizadas: Apresentação clara dos serviços e informações da barbearia
 
 ## Estrutura do Projeto
-´´´
+```
 rei-navalha-barbearia/
 │
 ├── css/
@@ -29,7 +29,7 @@ rei-navalha-barbearia/
 │   └── ...                     # Outras imagens
 │
 └── index.html            # Arquivo principal HTML
-´´´
+```
 
 ## Seções da Página
 
@@ -55,7 +55,7 @@ Personalização do Calendly
 
 Para configurar corretamente a integração com o Calendly, é necessário editar o arquivo js/calendly-integration.js e substituir os URLs de exemplo pelos links reais do Calendly para cada barbeiro:
 
-´´´
+```
 javascript
 const barbeirosConfig = {
     'riltonborges': {
@@ -68,7 +68,7 @@ const barbeirosConfig = {
     },
     // ... outros barbeiros
 };
-´´´
+```
 
 ## Instalação e Uso
 
